@@ -7,6 +7,7 @@ describe('Тестовый набор для проверки авторизац
   describe('Позитивные кейсы', () => {
     it('Токен авторизации для клиента компании Технопарк', async () => {
       const res = await user.login(config.stage.credentials.technopark)
+
       expect(res.status).toBe(200)
       expect(res.body).toHaveProperty('expires_in')
       expect(res.body).toHaveProperty('token')
