@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1693297929539' stop='1693297929543'>
+    <name>Тестовый набор для проверки авторизации пользователя Позитивные кейсы</name>
+    <title>Тестовый набор для проверки авторизации пользователя Позитивные кейсы</title>
+    <test-cases>
+        <test-case start='1693297929539' status='failed' stop='1693297929543'>
+            <name>Токен авторизации для клиента компании Технопарк</name>
+            <title>Токен авторизации для клиента компании Технопарк</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'address')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'address')
+                    at Test.serverAddress (C:\Users\ASUS\delivery-main\delivery\tests\jest\node_modules\supertest\lib\test.js:46:22)
+                    at new Test (C:\Users\ASUS\delivery-main\delivery\tests\jest\node_modules\supertest\lib\test.js:34:14)
+                    at Object.obj.&lt;computed> [as post] (C:\Users\ASUS\delivery-main\delivery\tests\jest\node_modules\supertest\index.js:43:18)
+                    at Object.post [as login] (C:\Users\ASUS\delivery-main\delivery\tests\jest\helpers\user.js:12:8)
+                    at login (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:9:30)
+                    at call (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at Generator.tryCatch (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at Generator._invoke [as next] (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at asyncGeneratorStep (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at asyncGeneratorStep (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at _next (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at new Promise (&lt;anonymous>)
+                    at Object.&lt;anonymous> (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at Object.asyncJestTest (C:\Users\ASUS\delivery-main\delivery\tests\jest\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:125:37)
+                    at C:\Users\ASUS\delivery-main\delivery\tests\jest\node_modules\jest-jasmine2\build\queueRunner.js:41:12
+                    at new Promise (&lt;anonymous>)
+                    at mapper (C:\Users\ASUS\delivery-main\delivery\tests\jest\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+                    at C:\Users\ASUS\delivery-main\delivery\tests\jest\node_modules\jest-jasmine2\build\queueRunner.js:68:41</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

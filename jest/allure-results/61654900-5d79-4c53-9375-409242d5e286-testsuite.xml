@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1693298550238' stop='1693298550350'>
+    <name>Тестовый набор для проверки авторизации пользователя Позитивные кейсы</name>
+    <title>Тестовый набор для проверки авторизации пользователя Позитивные кейсы</title>
+    <test-cases>
+        <test-case start='1693298550238' status='failed' stop='1693298550350'>
+            <name>Токен авторизации для клиента компании Технопарк</name>
+            <title>Токен авторизации для клиента компании Технопарк</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: 200
+                Received: 400</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: 200
+                Received: 400
+                    at toBe (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:10:26)
+                    at call (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at Generator.tryCatch (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at Generator._invoke [as next] (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at asyncGeneratorStep (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at asyncGeneratorStep (C:\Users\ASUS\delivery-main\delivery\tests\jest\specs\auth.spec.js:2:1)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
